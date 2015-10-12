@@ -6,7 +6,7 @@
 //  Copyright © 2015 rain. All rights reserved.
 //
 
-import UIKit //第一次使用github在线修改功能／继续用客户端修改2015.10.12 3:22
+import UIKit //第一次使用github在线修改功能／继续用客户端修改2015.10.12 3:22 /上传成功
 
 class ViewController: UIViewController , UIScrollViewDelegate{
     var scrollView = UIScrollView()
