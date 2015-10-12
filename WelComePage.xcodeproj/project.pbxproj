@@ -12,7 +12,7 @@
 		B7787D3E1BA9159C00944035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7787D3C1BA9159C00944035 /* Main.storyboard */; };
 		B7787D401BA9159C00944035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7787D3F1BA9159C00944035 /* Assets.xcassets */; };
 		B7787D431BA9159C00944035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7787D411BA9159C00944035 /* LaunchScreen.storyboard */; };
-		B7787D4B1BA9724500944035 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787D4A1BA9724500944035 /* StartView.swift */; settings = {ASSET_TAGS = (); }; };
+		B7787D4B1BA9724500944035 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787D4A1BA9724500944035 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +98,7 @@
 				TargetAttributes = {
 					B7787D341BA9159C00944035 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = XTKWHY6T3F;
 					};
 				};
 			};
@@ -250,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WelComePage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rain.WelComePage;
@@ -261,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WelComePage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rain.WelComePage;
@@ -287,6 +290,7 @@
 				B7787D491BA9159C00944035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
